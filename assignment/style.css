@@ -2,12 +2,31 @@ header {
   background-color: lightgrey;
 }
 
-.info {
-  background-color: khaki;
-  color: navy;
+h2 {
+  color: white;
+  background-color: red;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 h3 {
   background-color: olive;
   color: white;
+  text-align: center;
+}
+
+.info {
+  border-style: groove;
+  top: 50%;
+  left: 50%
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
